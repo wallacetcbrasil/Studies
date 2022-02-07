@@ -1,2 +1,5 @@
-# Studies
- This is my study folder, it contains projects in progress or unfinished so don't expect "professional projects"
+Organization of the folders
+
+(Folder name: In progress ) - What am i learning.
+
+(Folder name: Unfinished ) - Unfinished projects due to lack of knowledge.

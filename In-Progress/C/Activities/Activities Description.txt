@@ -1,0 +1,11 @@
+Archive: One-Hundred-FOR.c or One-Hundred-FOR.exe
+Objective: Make a program that prints the number 1 to 100 using the "FOR" loop.
+
+Archive: One-Hundred-WHILE.c or One-Hundred-WHILE.exe
+Objective: Make a same program but now using while.
+
+Archive: Sum-One-Hundred.c
+Objective: Make a program that prints the sum of all numbers from 1 to 100, the program will calculate the result of 1+2+3+4+...+100.
+
+Archive: Multiplication-Table.c
+Objective: Make a program that take a number and does the multiplication table up to the number 10 (obs i add the function of recive the number max of table).

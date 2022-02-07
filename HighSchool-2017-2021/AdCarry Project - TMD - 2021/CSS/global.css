@@ -1,0 +1,146 @@
+/* Tags html */
+html {
+    scroll-behavior: smooth;
+    background-image: linear-gradient(135deg, #5a6a76 0%, #232c35 100%);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+A {
+    text-decoration: none;
+}
+
+div{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+hr{
+    height: 2px;
+    background-color: #62502B;
+    border: none;
+}
+
+table {
+    min-width: 75vw;
+    max-width: 75vw;
+    color: #62502B;
+    text-align: center;
+    border: 5px solid #62502B;
+    background-image: linear-gradient(135deg, #212f3a 0%, #080b0e 100%);    
+}
+
+h1{
+    font-size: 26px;
+    color: #62502B;
+}
+
+ul{
+    text-align: left;
+    color: #fff;
+}
+
+h2{
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+	font-weight: bold;
+}
+
+h3{  
+    max-width: 75vw;
+    color:#62502B;
+    text-align: justify;
+}
+
+h4{
+    color: #62502B;
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+iframe{
+    width: 695px;
+    height: 390px;
+}
+
+Footer{
+    bottom: 0;
+    width: 100%;
+    border: 2px solid #62502B;
+    background-image: linear-gradient(135deg, #212f3a 0%, #080b0e 100%);
+}
+
+
+/* Topo da pagina */
+
+.Champions{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+	font-weight: bold;
+    border: 5px solid #62502B;
+    background-image: linear-gradient(135deg, #212f3a 0%, #080b0e 100%);
+}
+
+/* Centro da pagina */
+
+.campeao{ 
+    width: 70vw;    
+}
+
+.video{
+    max-width: 100vw;
+}
+
+.botao {
+    color: #fff;
+    text-align: center;
+    border: none;
+    background-image:none;    
+}
+
+.designbttn {
+    border: 3px solid #62502B;
+    background-image: linear-gradient(135deg, #212f3a 0%, #080b0e 100%);
+    margin-left: 5px;
+    height: 60px;
+}
+
+.loadscreen{
+    width: 170;
+    height: 290;
+}
+
+#runas{
+    height:50px;
+    max-width: 75vw;
+}
+
+#subrunas{
+    height:25px;
+    width:25px;
+}
+
+/* Final da pagina */
+
+#Table-text{
+    height:50px;
+    width: 100%;
+    display:table;
+}
+
+#Cell-text{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+#Copyright-text{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; 
+}

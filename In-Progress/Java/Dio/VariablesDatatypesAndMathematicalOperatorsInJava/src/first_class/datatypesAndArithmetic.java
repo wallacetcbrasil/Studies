@@ -4,7 +4,7 @@ package first_class;
  * Example class for the first class of variable exercise, data types and arithmetic operators.
  */
 
-public class App {
+public class datatypesAndArithmetic {
     public static void main(String[] args) {
         
         int i;

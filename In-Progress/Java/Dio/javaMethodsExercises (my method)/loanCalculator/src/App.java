@@ -1,22 +1,21 @@
 import java.util.Scanner;
 
 public class App {
-    public static void main(){
+    public static void main(String[] args) {
         
         int installments;
-        double tax = 1.35;
-        double val, monthValue, totalValue;
+        double fixedtax = 0.15;
+        double val, tax, totalValue;
         Scanner read = new Scanner(System.in);
         
 
         System.out.println("Welcome to ours loan simulator system!");
         System.out.print("First of all, report loan amount: ");
         val = read.nextDouble();
-        System.out.println("And now how many installments: ");
+        System.out.print("And now how many installments: ");
         installments = read.nextInt();
-        monthValue = (val / installments) * tax ;
-        totalValue = monthValue * installments;
-        System.out.println("The value with tax per month is: " + monthValue);
+        tax = installments * fixedtax; 
+        totalValue = val + (val * tax);
         System.out.println("The total value with tax is: " + totalValue);
 
     }
